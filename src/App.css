@@ -29,7 +29,18 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.btn--contained{
+  background-color: #000000 !important;
+  
+}
+
+.btn--outlined{
+  border-color: #000000 !important;
+  color: #000000 !important;
+  
 }
 
 

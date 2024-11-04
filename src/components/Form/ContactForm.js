@@ -1,5 +1,7 @@
-import { Box, Button } from "@mui/material";
+import { Box, Button, IconButton } from "@mui/material";
 import React from "react";
+import "../../App.css";
+import MessageIcon from "@mui/icons-material/Message";
 
 export default function ContactForm() {
   return (
@@ -20,11 +22,20 @@ export default function ContactForm() {
             boxSizing: "border-box",
           }}
         >
-          <Button variant="contained">VIA SUPPORT CHAT</Button>
-          <Button variant="contained">VIA CALL</Button>
+          <Button className="btn--contained" variant="contained">
+            <IconButton>
+              <MessageIcon />
+            </IconButton>
+            VIA SUPPORT CHAT
+          </Button>
+          <Button className="btn--contained" variant="contained">
+            VIA CALL
+          </Button>
         </Box>
         <Box>
-          <Button variant="outlined">VIA EMAIL FORM</Button>
+          <Button className="btn--outlined" variant="outlined">
+            VIA EMAIL FORM
+          </Button>
         </Box>
       </Box>
     </>
