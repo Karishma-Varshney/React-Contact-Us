@@ -32,11 +32,13 @@ body {
   font-family: 'Poppins', sans-serif !important;
 }
 
+/* contained button */
 .btn--contained{
   background-color: #000000 !important;
   
 }
 
+/* outlined button */
 .btn--outlined{
   border-color: #000000 !important;
   color: #000000 !important;
