@@ -12,7 +12,7 @@ export default function FormLayout() {
           justifyContent: "space-between",
           flexDirection: "row",
           width: "80%",
-          // margin: "auto",
+          margin: "auto",
         }}
       >
         {/* contact form content  */}
