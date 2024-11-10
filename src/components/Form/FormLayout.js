@@ -15,7 +15,6 @@ export default function FormLayout() {
           margin: "auto",
         }}
       >
-        {/* contact form content  */}
         <ContactForm />
         <img src={heroImg} alt="hero section img" />
       </Box>
